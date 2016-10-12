@@ -1,0 +1,32 @@
+body .main {
+	position: static;
+}
+
+.feature {
+	height: 400px;
+	padding: 0;
+}
+
+.feature-text {
+	background-color: white;
+	color: lightgray;
+	padding: 0 5%;
+	position: relative;
+	font-family: "Helvetica Neue Light";
+	font-size: 14px;
+}
+
+.feature-text p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.feature-illu {
+	background-color: darkgray;
+}
+
+.feature-text, .feature-illu {
+	height: 100%;
+}
