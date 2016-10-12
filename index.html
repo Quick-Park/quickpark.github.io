@@ -83,7 +83,12 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
-<div class="main" style="background-image: url('images/default.jpg')">
+<div class="main" style="background-image: url('images/video_bg.jpg')">
+  <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <source src="video/time.webm" type="video/webm">
+      <source src="video/time.mp4" type="video/mp4">
+      Video not supported
+  </video>
 
 <!--    Change the image source '/images/default.jpg' with your favourite image.     -->
     
@@ -92,9 +97,12 @@
 <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
     <div class="container">
-        <h1 class="logo cursive">
-            Quick Park
-        </h1>
+        <div class="brand-elements">
+          <img id="qp-logo" src="images/QuickParkLogo.png"/>
+          <h1 class="logo cursive">
+              Quick Park
+          </h1>
+        </div>
 <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
         
         <div class="content">

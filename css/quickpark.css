@@ -2,8 +2,34 @@ body .main {
 	position: static;
 }
 
-body .main .logo.cursive {
+.main .brand-elements {
 	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.main video {
+	z-index: auto;
+	left: 0;
+	bottom: 0;
+	min-width: auto;
+	min-height: auto;
+}
+
+.brand-elements #qp-logo {
+	height: 80px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.brand-elements .logo.cursive {
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 body .main .content {
