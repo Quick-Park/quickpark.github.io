@@ -1,5 +1,26 @@
+@font-face {
+	font-family: 'Grand Hotel';
+	src: url('GrandHotel-Regular.ttf');
+}
+
 body .main {
-	position: static;
+	position: relative;
+}
+
+body .shadow {
+	text-shadow: 2px 2px black;
+}
+
+.main::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.4;
+	z-index: 1;
 }
 
 .main .brand-elements {
@@ -7,14 +28,7 @@ body .main {
 	text-align: center;
 	margin-bottom: 20px;
 	position: relative;
-}
-
-.main video {
-	z-index: auto;
-	left: 0;
-	bottom: 0;
-	min-width: auto;
-	min-height: auto;
+	z-index: 2;
 }
 
 .brand-elements #qp-logo {
@@ -34,6 +48,7 @@ body .main {
 
 body .main .content {
 	margin-bottom: 100px;
+	z-index: 2;
 }
 
 body .main .motto {
