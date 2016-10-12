@@ -1,7 +1,9 @@
 $(document).ready(function() {
 	$("#btn-notify").on('click', function() {
-		var mail = $("#email-input").val();
+		console.log("click notify email");
 
+		var mail = $("#email-input").val();
+		mixpanel.identify();
 		mixpanel.people.set({
             "$email": mail
         });
