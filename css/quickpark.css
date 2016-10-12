@@ -2,6 +2,19 @@ body .main {
 	position: static;
 }
 
+body .main .logo.cursive {
+	margin-top: 100px;
+}
+
+body .main .content {
+	margin-bottom: 100px;
+}
+
+body .main .motto {
+	margin-top: 0;	
+	min-height: 80px;
+}
+
 .feature {
 	height: 400px;
 	padding: 0;
