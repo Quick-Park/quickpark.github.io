@@ -4,7 +4,7 @@
 }
 
 body .main {
-	/*position: relative;*/
+	position: relative;
 }
 
 body .shadow {
@@ -63,7 +63,7 @@ body .main .motto {
 
 .feature-text {
 	background-color: white;
-	color: lightgray;
+	color: black;
 	padding: 0 5%;
 	position: relative;
 	font-family: "Helvetica Neue Light";
@@ -72,15 +72,30 @@ body .main .motto {
 
 .feature-text p {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+    left: 40%;
+    top: 62%;
 	transform: translate(-50%, -50%);
 }
 
 .feature-illu {
-	background-color: darkgray;
+	background-color: #FFFFFF;
 }
 
 .feature-text, .feature-illu {
 	height: 100%;
+}
+
+.image2 {
+	width: 90%;
+	margin-top: 15%;
+}
+
+.image {
+	width:70%;
+	margin-left: 37%;
+    margin-top: 3%;
+}
+
+.title2 {
+	margin-top: 20%;
 }
