@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	mixpanel.track('Visiters',{});
 	$("#btn-notify").on('click', function() {
 		console.log("click notify email");
 
